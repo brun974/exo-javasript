@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>Date du jour</title>
+</head>
+      <body>
+
+           <SCRIPT LANGUAGE="JavaScript">
+
+			let maintenant=new Date();             //variable de la date du jour //
+			let jour=maintenant.getDate();         //appel a la variable date //
+			let mois=maintenant.getMonth()+1;      //appel a la variable du mois //
+			let an=maintenant.getFullYear();       //appel a la variable de l'année //
+
+             //affichage de la phrase et la date , mois, année ;//
+
+			document.write("Bienvenue,nous sommes le ",jour,"/",mois,"/",an,".");
+			  
+			</SCRIPT>
+
+
+       </body>
+</html>
